@@ -1,0 +1,25 @@
+<form (ngSubmit)="onSubmit(nameForm)" #nameForm="ngForm">
+    <div class="form-group">
+  <label for="studNo">Student Number</label><input type="text" id="studNo" name="studNo"
+  ngModel class="form-control" required><br>
+    </div>
+  <div class="form-group">
+  <label for="studFname">Student First Name</label><input type="text" id="studFname" name="studFname"
+  ngModel class="form-control" required><br>
+  </div>
+  <div class="form-group">
+  <label for="studLname">Student Last Name</label><input type="text" id="studLname" name="studLname"
+  ngModel class="form-control" required><br>
+  </div>
+  <div class="form-group">
+  <label for="studProg">Student Program</label><input type="text" id="studProg" name="studProg"
+  ngModel class="form-control" required><br>
+  </div>
+  <div class="form-group">
+  <label for="studYr">Student Year</label><input type="text" id="studYr" name="studYr"
+  ngModel class="form-control" required><br>
+  </div>
+<div id="options>">
+<input type="Submit" value="Add Student">
+</div>
+</form>
